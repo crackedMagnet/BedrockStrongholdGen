@@ -29,7 +29,7 @@
 		56D2DEFE25CDB5F30026D1D4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		56D2DF0625CDB6170026D1D4 /* BedrockRandom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BedrockRandom.cpp; sourceTree = "<group>"; };
 		56D2DF0725CDB6170026D1D4 /* BedrockRandom.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BedrockRandom.hpp; sourceTree = "<group>"; };
-		56D2DF0A25CDB6670026D1D4 /* StrongholdGen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StrongholdGen.cpp; sourceTree = "<group>"; };
+		56D2DF0A25CDB6670026D1D4 /* StrongholdGen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StrongholdGen.cpp; sourceTree = "<group>"; usesTabs = 0; };
 		56D2DF0B25CDB6670026D1D4 /* StrongholdGen.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StrongholdGen.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
