@@ -151,7 +151,7 @@ GenResult* StrongholdGen::generate(int seed, int chunkx, int chunkz)
     // BoundingBox var7 = BoundingBox.orientBox(var2, var3, var4, -4, -3, 0, 10, 9, 11, var5);
     //Room *fiveWay=sh.createRoom(FiveWay, rand, <#int x#>, <#int y#>, <#int z#>, <#Direction dir#>, <#int depth#>)
     //no roll for first 5 way
-    //addChildren->generateSmallDoorChildForward->generateAndAddPiece (clone random here) inc depth count here -> generatePieceFromSmall door. (rand selection) -> findAndCreatePieceFactory
+  
     
     
     
@@ -301,8 +301,12 @@ Room* Stronghold::createRoom(RoomType rt, BedrockRandom *rand, int x, int y, int
             box=new Box(NORTH, 0,0,0,0,0,0,0,0,0);
             break;
     }
-    if(box->minY<=10) return nullptr;
-    if(hitsAnotherRoom(box)) return nullptr;
+    if(box->minY<=10||hitsAnotherRoom(box))
+    {
+        delete box;
+        return nullptr;
+    }
+    //if(hitsAnotherRoom(box)) return nullptr;
     return new Room(dir,rt, rand, depth, box,true);
     
 }

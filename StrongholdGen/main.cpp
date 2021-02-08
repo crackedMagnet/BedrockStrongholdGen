@@ -13,9 +13,11 @@
 
 
 int main(int argc, const char * argv[]) {
-    int startSeed=std::stoi(argv[1]);
+    //int startSeed=std::stoi(argv[1]);
     //decseedfind(780100000, 3000);
-    int seedJump=std::stoi(argv[2]);
+    //int seedJump=std::stoi(argv[2]);
+    int startSeed=0;
+    int seedJump=4;
     //std::string outfileprefix=argv[3];
     std::ofstream OutFileInsideChunk("/Users/matthewferguson/Projects/Minecraft XCode/Output/StrongholdGen"+std::to_string(startSeed)+" - One Chunk.txt");
     std::ofstream OutFileSplitChunk("/Users/matthewferguson/Projects/Minecraft XCode/Output/StrongholdGen"+std::to_string(startSeed)+"- Split Chunk.txt");
