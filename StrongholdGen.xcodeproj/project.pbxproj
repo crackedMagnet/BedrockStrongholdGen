@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		56D2DEFF25CDB5F30026D1D4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56D2DEFE25CDB5F30026D1D4 /* main.cpp */; };
+		56D2DF0825CDB6170026D1D4 /* BedrockRandom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56D2DF0625CDB6170026D1D4 /* BedrockRandom.cpp */; };
+		56D2DF0C25CDB6670026D1D4 /* StrongholdGen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56D2DF0A25CDB6670026D1D4 /* StrongholdGen.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		56D2DEFB25CDB5F30026D1D4 /* StrongholdGen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StrongholdGen; sourceTree = BUILT_PRODUCTS_DIR; };
 		56D2DEFE25CDB5F30026D1D4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		56D2DF0625CDB6170026D1D4 /* BedrockRandom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BedrockRandom.cpp; sourceTree = "<group>"; };
+		56D2DF0725CDB6170026D1D4 /* BedrockRandom.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BedrockRandom.hpp; sourceTree = "<group>"; };
+		56D2DF0A25CDB6670026D1D4 /* StrongholdGen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StrongholdGen.cpp; sourceTree = "<group>"; };
+		56D2DF0B25CDB6670026D1D4 /* StrongholdGen.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StrongholdGen.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				56D2DEFE25CDB5F30026D1D4 /* main.cpp */,
+				56D2DF0625CDB6170026D1D4 /* BedrockRandom.cpp */,
+				56D2DF0725CDB6170026D1D4 /* BedrockRandom.hpp */,
+				56D2DF0A25CDB6670026D1D4 /* StrongholdGen.cpp */,
+				56D2DF0B25CDB6670026D1D4 /* StrongholdGen.hpp */,
 			);
 			path = StrongholdGen;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				56D2DEFF25CDB5F30026D1D4 /* main.cpp in Sources */,
+				56D2DF0C25CDB6670026D1D4 /* StrongholdGen.cpp in Sources */,
+				56D2DF0825CDB6170026D1D4 /* BedrockRandom.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
